@@ -6,7 +6,9 @@ const WelcomeScreen = () => {
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View style={styles.group} />
         <View style={styles.group}>
-          <Image style={styles.logo} source={require("./logo.png")} />
+          <Image style={styles.logo} source={{
+          uri: "https://tinyurl.com/42evm3m3"
+        }} />
           <Text style={styles.text}>
             Let's build something amazing together!
           </Text>
@@ -18,7 +20,7 @@ const WelcomeScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#F8F8FC",
+    backgroundColor: "blue",
     height: "100%"
   },
   scrollView: {
